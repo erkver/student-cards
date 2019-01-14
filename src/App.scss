@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background: black;
+  height: 100vh;
+}
+
+nav {
+  height: 100px;
+  background: #61dafb;
+  margin: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+
+  h3 {
+    cursor: pointer;
+  }
+
+}
+
+.btn-cont {
+  width: 70vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .nav-btn {
+    background: black;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  } 
+
+  .nav-btn:hover {
+    text-decoration: underline;
+  }
+
+  .chg-btn {
+    background: #61dafb;
+    border: none;
+    margin: 0 20px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+}

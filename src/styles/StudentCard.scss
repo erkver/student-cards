@@ -1,0 +1,54 @@
+.main-card-cont {
+  background: white;
+  width: 75vw;
+  // height: 40vh;
+  margin: 25px auto 10px auto;
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 5px 10px 5px 30px;
+  font-size: 24px;
+
+  h1 {
+    text-align: start;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0 40px 0;
+  }
+
+  #index {
+    text-align: end;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .info-cont {
+    display: flex;
+
+    h3 {
+      font-weight: bold;
+      margin: 10px 5px 10px 0;
+    }
+
+    h4 {
+      margin: 10px 0;
+    }
+  }
+
+  .q-list {
+    margin-top: 30px;
+    font-weight: bold;
+    text-align: start;
+  }
+
+  .answer-cont {
+    display: flex;
+    margin: 10px 0 10px 50px;
+
+    h2 {
+      font-weight: bold;
+      margin-right: 10px;
+    }
+  }
+}
